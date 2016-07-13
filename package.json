@@ -1,0 +1,19 @@
+{
+  "name": "phoenix-chat",
+  "version": "1.0.0",
+  "description": "Chat client for phoenix chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/samcorcos/phoenix-chat-13-july.git"
+  },
+  "author": "Sam Corcos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcorcos/phoenix-chat-13-july/issues"
+  },
+  "homepage": "https://github.com/samcorcos/phoenix-chat-13-july#readme"
+}
