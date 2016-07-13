@@ -1,4 +1,5 @@
 import React from 'react'
+import FontAwesome from 'react-fontawesome'
 import style from './style.js'
 
 export class PhoenixChat extends React.Component {
@@ -9,9 +10,10 @@ export class PhoenixChat extends React.Component {
   render() {
     return (
       <div
-        onClick={this.props.toggleChat}
         style={ style.chatButton }>
-        XXX
+        <img
+          src="https://github.com/LearnPhoenix/graphics/blob/master/phoenix-chat-icon.png?raw=true"
+          style={ style.chatImage } />
       </div>
     )
   }
