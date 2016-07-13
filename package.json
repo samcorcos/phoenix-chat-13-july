@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/samcorcos/phoenix-chat-13-july/issues"
   },
-  "homepage": "https://github.com/samcorcos/phoenix-chat-13-july#readme"
+  "homepage": "https://github.com/samcorcos/phoenix-chat-13-july#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
 }
